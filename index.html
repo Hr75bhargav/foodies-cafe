@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foodies Cafe Indri – Premium Food Ordering & Delivery</title>
+    <meta name="description" content="Craving delicious pizzas, burgers, pasta, momos & cold coffee in Indri, Haryana? Order fresh online from Foodies Cafe. Fast delivery and self-pickup available." />
+    
+    <!-- OpenGraph Social Cards -->
+    <meta property="og:type" content="restaurant.restaurant" />
+    <meta property="og:title" content="Foodies Cafe Indri – Premium Food Ordering & Delivery" />
+    <meta property="og:description" content="Craving delicious pizzas, burgers, pasta, momos & cold coffee in Indri, Haryana? Order fresh online from Foodies Cafe. Fast delivery and self-pickup available." />
+    <meta property="og:site_name" content="Foodies Cafe" />
+    
+    <!-- Twitter Social Cards -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Foodies Cafe Indri – Premium Food Ordering & Delivery" />
+    <meta name="twitter:description" content="Your favourite cafe cravings in Indri, freshly prepared and delivered right to your doorstep." />
+
+    <!-- Google Fonts: Plus Jakarta Sans & Noto Sans for guaranteed Rupee symbol rendering -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;700&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+
+    <!-- Schema.org Restaurant Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "name": "Foodies Cafe",
+      "image": "https://instagram.com/foodiescafe_indri",
+      "telephone": "+91-84275-25253",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Near Vishavkarma Mandir, New Bazaar, Khukhani",
+        "addressLocality": "Indri",
+        "addressRegion": "Haryana",
+        "postalCode": "132041",
+        "addressCountry": "IN"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 29.8789,
+        "longitude": 77.0601
+      },
+      "servesCuisine": ["Cafe", "Fast Food", "Pizza", "Burgers", "Italian", "Snacks", "Beverages"],
+      "priceRange": "₹₹",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+          "opens": "10:30",
+          "closes": "22:30"
+        }
+      ],
+      "acceptsReservations": "False",
+      "hasMenu": "https://instagram.com/foodiescafe_indri"
+    }
+    </script>
+  </head>
+  <body class="bg-[#faf8f5] text-[#1c1917] selection:bg-amber-500 selection:text-white antialiased font-sans">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

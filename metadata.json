@@ -1,0 +1,6 @@
+{
+  "name": "Foodies Cafe – Indri, Haryana",
+  "description": "Premium online food ordering for Foodies Cafe in Indri, Haryana. Delicious pizzas, burgers, pasta, momos, shakes and cafe bites delivered fresh.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
